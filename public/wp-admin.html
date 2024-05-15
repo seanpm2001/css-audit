@@ -1380,7 +1380,7 @@ body.trashing #publish-settings</code><br />
 							<li>
 					<code>#available-menu-items .accordion-section-title .no-items,
 #available-menu-items .cannot-expand .accordion-section-title .spinner,
-#available-menu-items .cannot-expand .accordion-section-title &gt; button</code><br />
+#available-menu-items .cannot-expand .accordion-section-title &gt; button:not(#available-menu-items-search button.is-visible)</code><br />
 					<em>wordpress/src/wp-admin/css/customize-nav-menus.css</em>
 				</li>
 								
@@ -2545,8 +2545,8 @@ p.no-themes-local</code><br />
 				<a class="btn back-to-top" href="#top" title="Back to top">⬆</a>
 			</header>
 
-													<h3>Total number of selectors: <span class="count">8568</span></h3>
-				<h3>Number of selectors with IDs: <span class="count">2335</span></h3>
+													<h3>Total number of selectors: <span class="count">8581</span></h3>
+				<h3>Number of selectors with IDs: <span class="count">2336</span></h3>
 				<h3>Top 10 selectors with the highest specificity</h3>
 		<ol>
 					
@@ -2644,13 +2644,13 @@ p.no-themes-local</code><br />
 				</li>
 								
 							<li>
-					<code>#wpadminbar &gt; #wp-toolbar &gt; #wp-admin-bar-top-secondary &gt; #wp-admin-bar-search #adminbarsearch input.adminbar-input:focus</code><br />
-					<em>wordpress/src/wp-includes/css/admin-bar.css</em>
+					<code>#available-menu-items .cannot-expand .accordion-section-title &gt; button:not(#available-menu-items-search button.is-visible)</code><br />
+					<em>wordpress/src/wp-admin/css/customize-nav-menus.css</em>
 				</li>
 								
 							<li>
-					<code>#customize-controls .customize-section-title &gt; .customize-control-notifications-container:not(.has-overlay-notifications)</code><br />
-					<em>wordpress/src/wp-admin/css/customize-controls.css</em>
+					<code>#wpadminbar &gt; #wp-toolbar &gt; #wp-admin-bar-top-secondary &gt; #wp-admin-bar-search #adminbarsearch input.adminbar-input:focus</code><br />
+					<em>wordpress/src/wp-includes/css/admin-bar.css</em>
 				</li>
 							</ol>
 				
@@ -2664,7 +2664,7 @@ p.no-themes-local</code><br />
 				<a class="btn back-to-top" href="#top" title="Back to top">⬆</a>
 			</header>
 
-													<h3>Number of total media queries: <span class="count">189</span></h3>
+													<h3>Number of total media queries: <span class="count">190</span></h3>
 				<h3>Number of seemingly-unique media queries: <span class="count">86</span></h3>
 				<h3>Top 10 most-used media queries</h3>
 		<ol>
@@ -2749,6 +2749,11 @@ p.no-themes-local</code><br />
 			
 												<li>
 					<span class="count">4</span>
+					<em>960px</em>
+				</li>
+			
+												<li>
+					<span class="count">4</span>
 					<em>1120px</em>
 				</li>
 			
@@ -2760,11 +2765,6 @@ p.no-themes-local</code><br />
 												<li>
 					<span class="count">4</span>
 					<em>1600px</em>
-				</li>
-			
-												<li>
-					<span class="count">3</span>
-					<em>960px</em>
 				</li>
 			
 												<li>
@@ -3273,12 +3273,12 @@ p.no-themes-local</code><br />
 			
 												<li>
 					<span class="count">14</span>
-					<em>inherit</em>
+					<em>1.6</em>
 				</li>
 			
 												<li>
-					<span class="count">13</span>
-					<em>1.6</em>
+					<span class="count">14</span>
+					<em>inherit</em>
 				</li>
 			
 												<li>
